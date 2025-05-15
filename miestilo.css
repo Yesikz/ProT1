@@ -1,0 +1,126 @@
+body {
+  background-color: #eaf2e3;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*   HEAD  (ENCABEZADO DE PAGINA) */
+header {
+  background-color: #69bd45;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  border: 3px solid #69bd45;
+  border-radius: 10px;
+}
+
+
+/*      BARRA DE NAVEGACION    */
+nav {
+  background-color: #4caf50;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #2f8247;
+}
+
+/* CONTENIDO DE LA PAG */
+
+section {
+  padding: 30px;
+}
+
+.centrado {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.contenedor-div {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+
+/* IMAGEN */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  border: 3px solid #69bd45;
+  border-radius: 10px;
+}
+
+/* SECCION ARTICULO */
+h3{
+    color: #105312;
+    font-size: 22px;
+}
+.articulo1 {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 95%;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+/*    FOOTER (PIE DE PAGINA)    */ 
+
+footer {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.redes-sociales {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 10px;               
+    margin-bottom: 5px;      
+}
+
+.redes-sociales img {
+    width: 25px;  
+    height: auto; 
+}
